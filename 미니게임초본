@@ -1,0 +1,190 @@
+#include "stdafx.h"
+#include <stdio.h>
+
+int main()
+{
+	printf("--------------------------------------------------\n");
+	printf("재밋는 추정게임에 오신것을 환영합니다!\n");
+	printf("아래에 본인의 생년월일을 적어주시면 \n당신의 사망방법을 다양한 방법으로 예측해 드립니다!\n");
+	printf("--------------------------------------------------\n");
+
+	int year;
+	int month;
+	int day;
+
+	printf("당신이 태어난 연도를 작성해 주세요\n");
+	scanf("%d", &year);
+
+	switch (year)
+	{
+	case 1998:
+		printf("비가 추적추적 내려 바지를 적시던 어느 장마철\n");
+		break;
+	case 1999:
+		printf("눈이 하늘에서 내려 밖을 하얗게 덮어놓던 어느 겨울날\n");
+		break;
+	case 2000:
+		printf("도로변의 단풍나무가 빨갛게 물들던 어느 가을날\n");
+		break;
+	case 2001:
+		printf("벚꽃잎이 휘날려 온 하늘을 분홍빛으로 물들이던 어느 봄날\n");
+		break;
+	case 2002:
+		printf("별이 맑게 보이던 어느 밤하늘 아래\n");
+		break;
+	default:
+		printf("선생님이시거나, 고등학생이 아니십니다!!\n");
+		return 0;
+	}
+
+	printf("당신이 태어난 월을 작성해 주세요\n");
+	scanf("%d", &month);
+
+	switch (month)
+	{
+	case 1:
+		printf("학교에서 공부를 하다가\n");
+		break;
+	case 2:
+		printf("학원에서 공부를 하다가\n");
+		break;
+	case 3:
+		printf("산책을 하러 밖에 나가다가\n");
+		break;
+	case 4:
+		printf("친구와 연락을 주고 받다가\n");
+		break;
+	case 5:
+		printf("게임을 미친듯이 하다가\n");
+		break;
+	case 6:
+		printf("밥을 맛잇게 먹다가\n");
+		break;
+	case 7:
+		printf("좋아하는 웹툰을 보다가\n");
+		break;
+	case 8:
+		printf("영화관에서 영화를 보다가\n");
+		break;
+	case 9:
+		printf("좋아하는 사람을 마음속으로 그리다가\n");
+		break;
+	case 10:
+		printf("친구랑 싸우다가\n");
+		break;
+	case 11:
+		printf("집으로 가다가\n");
+		break;
+	case 12:
+		printf("야동을 보다가\n");
+		break;
+	default:
+		printf("정확한 값을 입력해주세요!!\n");
+		return 0;
+	}
+
+	printf("당신이 태어난 날짜을 작성해 주세요\n");
+	scanf("%d", &day);
+
+	switch (day)
+	{
+	case 1:
+		printf("힘을 너무 줘서 뇌출혈로 사망\n");
+		break;
+	case 2:
+		printf("날아오던 새똥에 맞아 사망\n");
+		break;
+	case 3:
+		printf("거울 봐서 사망\n");
+		break;
+	case 4:
+		printf("너무 열심히 해서 사망\n");
+		break;
+	case 5:
+		printf("성적표를 보고 사망\n");
+		break;
+	case 6:
+		printf("낙뢰맞아서 사망\n");
+		break;
+	case 7:
+		printf("번개를 보고 놀라서 사망\n");
+		break;
+	case 8:
+		printf("공기를 너무 들이마셔 과호흡증으로 사망 \n");
+		break;
+	case 9:
+		printf("빛을 보고 심장마비로 사망\n");
+		break;
+	case 10:
+		printf("급체해서 사망\n");
+		break;
+	case 11:
+		printf("겨드랑이 긁고 냄새 맡다 사망 \n");
+		break;
+	case 12:
+		printf("방구꿨는데 냄새가 화학무기급이라 사망\n");
+		break;
+	case 13:
+		printf("바늘에 찔려 사망\n");
+		break;
+	case 14:
+		printf("좋아하는 사람을 보고 급성 심장마비로 사망\n");
+		break;
+	case 15:
+		printf("9월말이 시험인걸 알고서는 사망\n");
+		break;
+	case 16:
+		printf("미세먼지에 폐가 막혀 사망\n");
+		break;
+	case 17:
+		printf("코털을 뽑다 염증생겨 사망\n");
+		break;
+	case 18:
+		printf("속이 답답해서 가슴을 두드리다 장기손상으로 사망\n");
+		break;
+	case 19:
+		printf("양치를 안했어서 입속 세균번식으로 사망\n");
+		break;
+	case 20:
+		printf("싱크홀이 나타나서 사망\n");
+		break;
+	case 21:
+		printf("눈따가워 눈비비다가 사망\n");
+		break;
+	case 22:
+		printf("날라가던 종이비행기에 맞아 사망\n");
+		break;
+	case 23:
+		printf("심심해서 춤을 추다 관절 꺾여 사망\n");
+		break;
+	case 24:
+		printf("유튜브를 보고 웃다가 실성해서 사망\n");
+		break;
+	case 25:
+		printf("노래에 심취해서 노래 부르다가 고막파열로 사망\n");
+		break;
+	case 26:
+		printf("휘발유의 맛이 궁금하여 맛보다가 사망\n");
+		break;
+	case 27:
+		printf("새의 날갯짓이 아름다워 감탄하다 앞을 못봐 사망\n");
+		break;
+	case 28:
+		printf("정수리냄새가 살인적이라 사망\n");
+		break;
+	case 29:
+		printf("숙제를 안한게 지금 생각나서 사망\n");
+		break;
+	case 30:
+		printf("차가 지나가는소리에 사망\n");
+		break;
+	case 31:
+		printf("이불킥으로 다리가 골절되서 사망\n");
+		break;
+	default:
+		printf("정확한 값을 입력해주세요!!\n");
+		return 0;
+	}
+	return 0;
+}
+
